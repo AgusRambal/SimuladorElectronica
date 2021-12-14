@@ -15,6 +15,7 @@ public class CharacterControllerScript : MonoBehaviour
 
     [Header("References")]
     public Transform cameraHolder;
+    public GameObject FadeIn;
 
     [Header("Settings")]
     public PlayerSettingsModel playerSettings;
@@ -43,6 +44,7 @@ public class CharacterControllerScript : MonoBehaviour
 
     private void Start()
     {
+        FadeIn.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
     }
 
