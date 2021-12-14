@@ -1,0 +1,23 @@
+If you have Photoshop CC2017 or better,you can easily change nominals of some electronics components.
+
+Box_albedo_Custom.psd:
+-Here you can draw/put your own emblem in frame area and change the existing texts.
+After you've done,save the document,select "EC_Box" material (Electronic components/Materials) and replace his albedo texture with new one which you just saved (Electronic components/Materials/Textures_editable/Box_albedo_Custom).
+
+Capacitors_albedo.psd:
+-Here you can change text of capacitors nominal.
+After you've done,save the document,select "EC_Capacitors" material (Electronic components/Materials) and replace his albedo texture with new one which you just saved (Electronic components/Materials/Textures_editable/Capacitors_Albedo).
+Warning!Because this asset uses specular workflow,for ionistor (gold capacitor) you need to also duplicate his text from albedo to specular map(Electronic components/Materials/Textures_editable/Capacitors_Specular) and also replace specular map into material(Electronic components/Materials/EC_Capacitors).
+
+Diodes_albedo.psd:
+-Here you can change text of diode shottky nominal.
+After you've done,save the document,select "EC_Diodes" material (Electronic components/Materials) and replace his albedo texture with new one which you just saved (Electronic components/Materials/Textures_editable/Diodes_Albedo).
+
+Transistors_albedo.psd:
+-Here you can change text of transistors nominals.
+After you've done,save the document,select "EC_Transistors" material (Electronic components/Materials) and replace his albedo texture with new one which you just saved (Electronic components/Materials/Textures_editable/Transistors_Albedo).
+
+Resistors_detail_marking.psd:
+-Here you can change marking-nominal colors of resistors.
+You can see six color-layers which represents six line on the resistor(frome left(1) to right(6)).Just make double-click on the layer and you will see color box,choose the color whatever you want and that's it!
+After you've done,save the document(into photoshop) and your marks will be updated on your resistors(because this map already aplied on all resistor materials,into "Detail albedo x2" slot).

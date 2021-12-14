@@ -1,0 +1,14 @@
+You can adjust albedo color for next materials:
+-EC_Box(Every type of)
+-EC_Inductors
+-EC_Wires
+Just click on need-able material,then right of 'albedo' slot you will see white box,click on it and choose the color you need.
+
+You can adjust emission color for next materials:
+-EC_Diodes
+Just click on need-able material,then right of 'Emission' slot you will see white box,click on it and choose the color you need.
+
+You can adjust resistor marking by putting "Electronic components/Materials/Textures_editable/Resistors_Detail_Marking" map into "Detail Albedo x2" slot of next materials:
+-EC_Resistors_Blue
+-EC_Resistors_Brown
+-EC_Resistors_Green

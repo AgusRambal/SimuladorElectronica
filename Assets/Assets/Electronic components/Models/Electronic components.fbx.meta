@@ -1,0 +1,577 @@
+fileFormatVersion: 2
+guid: cb62f1f8a6c91ea7c822fa603299339a
+timeCreated: 1508029189
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Default
+    100002: Default 1
+    100004: Default 10
+    100006: Default 11
+    100008: Default 12
+    100010: Default 13
+    100012: Default 14
+    100014: Default 15
+    100016: Default 16
+    100018: Default 17
+    100020: Default 18
+    100022: Default 19
+    100024: Default 2
+    100026: Default 20
+    100028: Default 21
+    100030: Default 22
+    100032: Default 23
+    100034: Default 24
+    100036: Default 25
+    100038: Default 26
+    100040: Default 27
+    100042: Default 28
+    100044: Default 29
+    100046: Default 3
+    100048: Default 30
+    100050: Default 31
+    100052: Default 32
+    100054: Default 33
+    100056: Default 34
+    100058: Default 35
+    100060: Default 36
+    100062: Default 37
+    100064: Default 38
+    100066: Default 39
+    100068: Default 4
+    100070: Default 5
+    100072: Default 6
+    100074: Default 7
+    100076: Default 8
+    100078: Default 9
+    100080: EC_Box
+    100082: EC_Box Body
+    100084: EC_Box Cap
+    100086: EC_Capacitors
+    100088: EC_Diodes
+    100090: EC_Inductors
+    100092: EC_Resistors
+    100094: EC_Transistors
+    100096: EC_Wires
+    100098: //RootNode
+    100100: Main Camera
+    100102: Placement Capacitor_Ceramic_Blue_Placed
+    100104: Placement Capacitor_Ceramic_Brown_Placed
+    100106: Placement Capacitor_Electrolytic_Placed
+    100108: Placement Capacitor_MemoryBackUp_Placed
+    100110: Placement Capacitor_Polypropylene_Placed
+    100112: Placement Capacitor_Supressor_Placed
+    100114: Placement Diode_LightEmitting_Placed
+    100116: Placement Diode_Schottky_Placed
+    100118: Placement Diode_Zener_Placed
+    100120: Placement Inductor_Air_Placed
+    100122: Placement Inductor_Ferrite_Placed
+    100124: Placement Inductor_Ferrite_Toroidal_Placed
+    100126: Placement Resistor_Big_Placed
+    100128: Placement Resistor_Medium_Placed
+    100130: Placement Resistor_Small_Placed
+    100132: Placement Transistor_TO126_Placed
+    100134: Placement Transistor_TO220_Placed
+    100136: Placement Transistor_TO92_Placed
+    100138: Presentation Capacitor_Ceramic_Blue
+    100140: Presentation Capacitor_Ceramic_Brown
+    100142: Presentation Capacitor_Electrolytic
+    100144: Presentation Capacitor_MemoryBackUp
+    100146: Presentation Capacitor_Polypropylene
+    100148: Presentation Capacitor_Supressor
+    100150: Presentation Diode_LightEmitting
+    100152: Presentation Diode_Schottky
+    100154: Presentation Diode_Zener
+    100156: Presentation Inductor_Air
+    100158: Presentation Inductor_Ferrite
+    100160: Presentation Inductor_Ferrite_Toroidal
+    100162: Presentation Resistor_Big
+    100164: Presentation Resistor_Medium
+    100166: Presentation Resistor_Small
+    100168: Presentation Transistor_TO126
+    100170: Presentation Transistor_TO220
+    100172: Presentation Transistor_TO92
+    100174: Render
+    100176: Sky
+    100178: Wire
+    100180: Wire_Placed
+    100182: EC_Box_Body
+    100184: EC_Box_Cap
+    100186: Placement_Capacitor_Ceramic_Blue_Placed
+    100188: Placement_Capacitor_Ceramic_Brown_Placed
+    100190: Placement_Capacitor_Electrolytic_Placed
+    100192: Placement_Capacitor_MemoryBackUp_Placed
+    100194: Placement_Capacitor_Polypropylene_Placed
+    100196: Placement_Capacitor_Supressor_Placed
+    100198: Placement_Diode_LightEmitting_Placed
+    100200: Placement_Diode_Schottky_Placed
+    100202: Placement_Diode_Zener_Placed
+    100204: Placement_Inductor_Air_Placed
+    100206: Placement_Inductor_Ferrite_Placed
+    100208: Placement_Inductor_Ferrite_Toroidal_Placed
+    100210: Placement_Resistor_Big_Placed
+    100212: Placement_Resistor_Medium_Placed
+    100214: Placement_Resistor_Small_Placed
+    100216: Placement_Transistor_TO126_Placed
+    100218: Placement_Transistor_TO220_Placed
+    100220: Placement_Transistor_TO92_Placed
+    100222: Presentation_Capacitor_Ceramic_Blue
+    100224: Presentation_Capacitor_Ceramic_Brown
+    100226: Presentation_Capacitor_Electrolytic
+    100228: Presentation_Capacitor_MemoryBackUp
+    100230: Presentation_Capacitor_Polypropylene
+    100232: Presentation_Capacitor_Supressor
+    100234: Presentation_Diode_LightEmitting
+    100236: Presentation_Diode_Schottky
+    100238: Presentation_Diode_Zener
+    100240: Presentation_Inductor_Air
+    100242: Presentation_Inductor_Ferrite
+    100244: Presentation_Inductor_Ferrite_Toroidal
+    100246: Presentation_Resistor_Big
+    100248: Presentation_Resistor_Medium
+    100250: Presentation_Resistor_Small
+    100252: Presentation_Transistor_TO126
+    100254: Presentation_Transistor_TO220
+    100256: Presentation_Transistor_TO92
+    100258: Placement_Diode_LightEmitting_Glass_Placed
+    100260: Placement_Diode_Zener_Glass_Placed
+    100262: Presentation_Diode_LightEmitting_Glass
+    100264: Presentation_Diode_Zener_Glass
+    400000: Default
+    400002: Default 1
+    400004: Default 10
+    400006: Default 11
+    400008: Default 12
+    400010: Default 13
+    400012: Default 14
+    400014: Default 15
+    400016: Default 16
+    400018: Default 17
+    400020: Default 18
+    400022: Default 19
+    400024: Default 2
+    400026: Default 20
+    400028: Default 21
+    400030: Default 22
+    400032: Default 23
+    400034: Default 24
+    400036: Default 25
+    400038: Default 26
+    400040: Default 27
+    400042: Default 28
+    400044: Default 29
+    400046: Default 3
+    400048: Default 30
+    400050: Default 31
+    400052: Default 32
+    400054: Default 33
+    400056: Default 34
+    400058: Default 35
+    400060: Default 36
+    400062: Default 37
+    400064: Default 38
+    400066: Default 39
+    400068: Default 4
+    400070: Default 5
+    400072: Default 6
+    400074: Default 7
+    400076: Default 8
+    400078: Default 9
+    400080: EC_Box
+    400082: EC_Box Body
+    400084: EC_Box Cap
+    400086: EC_Capacitors
+    400088: EC_Diodes
+    400090: EC_Inductors
+    400092: EC_Resistors
+    400094: EC_Transistors
+    400096: EC_Wires
+    400098: //RootNode
+    400100: Main Camera
+    400102: Placement Capacitor_Ceramic_Blue_Placed
+    400104: Placement Capacitor_Ceramic_Brown_Placed
+    400106: Placement Capacitor_Electrolytic_Placed
+    400108: Placement Capacitor_MemoryBackUp_Placed
+    400110: Placement Capacitor_Polypropylene_Placed
+    400112: Placement Capacitor_Supressor_Placed
+    400114: Placement Diode_LightEmitting_Placed
+    400116: Placement Diode_Schottky_Placed
+    400118: Placement Diode_Zener_Placed
+    400120: Placement Inductor_Air_Placed
+    400122: Placement Inductor_Ferrite_Placed
+    400124: Placement Inductor_Ferrite_Toroidal_Placed
+    400126: Placement Resistor_Big_Placed
+    400128: Placement Resistor_Medium_Placed
+    400130: Placement Resistor_Small_Placed
+    400132: Placement Transistor_TO126_Placed
+    400134: Placement Transistor_TO220_Placed
+    400136: Placement Transistor_TO92_Placed
+    400138: Presentation Capacitor_Ceramic_Blue
+    400140: Presentation Capacitor_Ceramic_Brown
+    400142: Presentation Capacitor_Electrolytic
+    400144: Presentation Capacitor_MemoryBackUp
+    400146: Presentation Capacitor_Polypropylene
+    400148: Presentation Capacitor_Supressor
+    400150: Presentation Diode_LightEmitting
+    400152: Presentation Diode_Schottky
+    400154: Presentation Diode_Zener
+    400156: Presentation Inductor_Air
+    400158: Presentation Inductor_Ferrite
+    400160: Presentation Inductor_Ferrite_Toroidal
+    400162: Presentation Resistor_Big
+    400164: Presentation Resistor_Medium
+    400166: Presentation Resistor_Small
+    400168: Presentation Transistor_TO126
+    400170: Presentation Transistor_TO220
+    400172: Presentation Transistor_TO92
+    400174: Render
+    400176: Sky
+    400178: Wire
+    400180: Wire_Placed
+    400182: EC_Box_Body
+    400184: EC_Box_Cap
+    400186: Placement_Capacitor_Ceramic_Blue_Placed
+    400188: Placement_Capacitor_Ceramic_Brown_Placed
+    400190: Placement_Capacitor_Electrolytic_Placed
+    400192: Placement_Capacitor_MemoryBackUp_Placed
+    400194: Placement_Capacitor_Polypropylene_Placed
+    400196: Placement_Capacitor_Supressor_Placed
+    400198: Placement_Diode_LightEmitting_Placed
+    400200: Placement_Diode_Schottky_Placed
+    400202: Placement_Diode_Zener_Placed
+    400204: Placement_Inductor_Air_Placed
+    400206: Placement_Inductor_Ferrite_Placed
+    400208: Placement_Inductor_Ferrite_Toroidal_Placed
+    400210: Placement_Resistor_Big_Placed
+    400212: Placement_Resistor_Medium_Placed
+    400214: Placement_Resistor_Small_Placed
+    400216: Placement_Transistor_TO126_Placed
+    400218: Placement_Transistor_TO220_Placed
+    400220: Placement_Transistor_TO92_Placed
+    400222: Presentation_Capacitor_Ceramic_Blue
+    400224: Presentation_Capacitor_Ceramic_Brown
+    400226: Presentation_Capacitor_Electrolytic
+    400228: Presentation_Capacitor_MemoryBackUp
+    400230: Presentation_Capacitor_Polypropylene
+    400232: Presentation_Capacitor_Supressor
+    400234: Presentation_Diode_LightEmitting
+    400236: Presentation_Diode_Schottky
+    400238: Presentation_Diode_Zener
+    400240: Presentation_Inductor_Air
+    400242: Presentation_Inductor_Ferrite
+    400244: Presentation_Inductor_Ferrite_Toroidal
+    400246: Presentation_Resistor_Big
+    400248: Presentation_Resistor_Medium
+    400250: Presentation_Resistor_Small
+    400252: Presentation_Transistor_TO126
+    400254: Presentation_Transistor_TO220
+    400256: Presentation_Transistor_TO92
+    400258: Placement_Diode_LightEmitting_Glass_Placed
+    400260: Placement_Diode_Zener_Glass_Placed
+    400262: Presentation_Diode_LightEmitting_Glass
+    400264: Presentation_Diode_Zener_Glass
+    2300000: EC_Box Body
+    2300002: EC_Box Cap
+    2300004: Placement Capacitor_Ceramic_Blue_Placed
+    2300006: Placement Capacitor_Ceramic_Brown_Placed
+    2300008: Placement Capacitor_Electrolytic_Placed
+    2300010: Placement Capacitor_MemoryBackUp_Placed
+    2300012: Placement Capacitor_Polypropylene_Placed
+    2300014: Placement Capacitor_Supressor_Placed
+    2300016: Placement Diode_LightEmitting_Placed
+    2300018: Placement Diode_Schottky_Placed
+    2300020: Placement Diode_Zener_Placed
+    2300022: Placement Inductor_Air_Placed
+    2300024: Placement Inductor_Ferrite_Placed
+    2300026: Placement Inductor_Ferrite_Toroidal_Placed
+    2300028: Placement Resistor_Big_Placed
+    2300030: Placement Resistor_Medium_Placed
+    2300032: Placement Resistor_Small_Placed
+    2300034: Placement Transistor_TO126_Placed
+    2300036: Placement Transistor_TO220_Placed
+    2300038: Placement Transistor_TO92_Placed
+    2300040: Presentation Capacitor_Ceramic_Blue
+    2300042: Presentation Capacitor_Ceramic_Brown
+    2300044: Presentation Capacitor_Electrolytic
+    2300046: Presentation Capacitor_MemoryBackUp
+    2300048: Presentation Capacitor_Polypropylene
+    2300050: Presentation Capacitor_Supressor
+    2300052: Presentation Diode_LightEmitting
+    2300054: Presentation Diode_Schottky
+    2300056: Presentation Diode_Zener
+    2300058: Presentation Inductor_Air
+    2300060: Presentation Inductor_Ferrite
+    2300062: Presentation Inductor_Ferrite_Toroidal
+    2300064: Presentation Resistor_Big
+    2300066: Presentation Resistor_Medium
+    2300068: Presentation Resistor_Small
+    2300070: Presentation Transistor_TO126
+    2300072: Presentation Transistor_TO220
+    2300074: Presentation Transistor_TO92
+    2300076: Wire
+    2300078: Wire_Placed
+    2300080: EC_Box_Body
+    2300082: EC_Box_Cap
+    2300084: Placement_Capacitor_Ceramic_Blue_Placed
+    2300086: Placement_Capacitor_Ceramic_Brown_Placed
+    2300088: Placement_Capacitor_Electrolytic_Placed
+    2300090: Placement_Capacitor_MemoryBackUp_Placed
+    2300092: Placement_Capacitor_Polypropylene_Placed
+    2300094: Placement_Capacitor_Supressor_Placed
+    2300096: Placement_Diode_LightEmitting_Placed
+    2300098: Placement_Diode_Schottky_Placed
+    2300100: Placement_Diode_Zener_Placed
+    2300102: Placement_Inductor_Air_Placed
+    2300104: Placement_Inductor_Ferrite_Placed
+    2300106: Placement_Inductor_Ferrite_Toroidal_Placed
+    2300108: Placement_Resistor_Big_Placed
+    2300110: Placement_Resistor_Medium_Placed
+    2300112: Placement_Resistor_Small_Placed
+    2300114: Placement_Transistor_TO126_Placed
+    2300116: Placement_Transistor_TO220_Placed
+    2300118: Placement_Transistor_TO92_Placed
+    2300120: Presentation_Capacitor_Ceramic_Blue
+    2300122: Presentation_Capacitor_Ceramic_Brown
+    2300124: Presentation_Capacitor_Electrolytic
+    2300126: Presentation_Capacitor_MemoryBackUp
+    2300128: Presentation_Capacitor_Polypropylene
+    2300130: Presentation_Capacitor_Supressor
+    2300132: Presentation_Diode_LightEmitting
+    2300134: Presentation_Diode_Schottky
+    2300136: Presentation_Diode_Zener
+    2300138: Presentation_Inductor_Air
+    2300140: Presentation_Inductor_Ferrite
+    2300142: Presentation_Inductor_Ferrite_Toroidal
+    2300144: Presentation_Resistor_Big
+    2300146: Presentation_Resistor_Medium
+    2300148: Presentation_Resistor_Small
+    2300150: Presentation_Transistor_TO126
+    2300152: Presentation_Transistor_TO220
+    2300154: Presentation_Transistor_TO92
+    2300156: Placement_Diode_LightEmitting_Glass_Placed
+    2300158: Placement_Diode_Zener_Glass_Placed
+    2300160: Presentation_Diode_LightEmitting_Glass
+    2300162: Presentation_Diode_Zener_Glass
+    3300000: EC_Box Body
+    3300002: EC_Box Cap
+    3300004: Placement Capacitor_Ceramic_Blue_Placed
+    3300006: Placement Capacitor_Ceramic_Brown_Placed
+    3300008: Placement Capacitor_Electrolytic_Placed
+    3300010: Placement Capacitor_MemoryBackUp_Placed
+    3300012: Placement Capacitor_Polypropylene_Placed
+    3300014: Placement Capacitor_Supressor_Placed
+    3300016: Placement Diode_LightEmitting_Placed
+    3300018: Placement Diode_Schottky_Placed
+    3300020: Placement Diode_Zener_Placed
+    3300022: Placement Inductor_Air_Placed
+    3300024: Placement Inductor_Ferrite_Placed
+    3300026: Placement Inductor_Ferrite_Toroidal_Placed
+    3300028: Placement Resistor_Big_Placed
+    3300030: Placement Resistor_Medium_Placed
+    3300032: Placement Resistor_Small_Placed
+    3300034: Placement Transistor_TO126_Placed
+    3300036: Placement Transistor_TO220_Placed
+    3300038: Placement Transistor_TO92_Placed
+    3300040: Presentation Capacitor_Ceramic_Blue
+    3300042: Presentation Capacitor_Ceramic_Brown
+    3300044: Presentation Capacitor_Electrolytic
+    3300046: Presentation Capacitor_MemoryBackUp
+    3300048: Presentation Capacitor_Polypropylene
+    3300050: Presentation Capacitor_Supressor
+    3300052: Presentation Diode_LightEmitting
+    3300054: Presentation Diode_Schottky
+    3300056: Presentation Diode_Zener
+    3300058: Presentation Inductor_Air
+    3300060: Presentation Inductor_Ferrite
+    3300062: Presentation Inductor_Ferrite_Toroidal
+    3300064: Presentation Resistor_Big
+    3300066: Presentation Resistor_Medium
+    3300068: Presentation Resistor_Small
+    3300070: Presentation Transistor_TO126
+    3300072: Presentation Transistor_TO220
+    3300074: Presentation Transistor_TO92
+    3300076: Wire
+    3300078: Wire_Placed
+    3300080: EC_Box_Body
+    3300082: EC_Box_Cap
+    3300084: Placement_Capacitor_Ceramic_Blue_Placed
+    3300086: Placement_Capacitor_Ceramic_Brown_Placed
+    3300088: Placement_Capacitor_Electrolytic_Placed
+    3300090: Placement_Capacitor_MemoryBackUp_Placed
+    3300092: Placement_Capacitor_Polypropylene_Placed
+    3300094: Placement_Capacitor_Supressor_Placed
+    3300096: Placement_Diode_LightEmitting_Placed
+    3300098: Placement_Diode_Schottky_Placed
+    3300100: Placement_Diode_Zener_Placed
+    3300102: Placement_Inductor_Air_Placed
+    3300104: Placement_Inductor_Ferrite_Placed
+    3300106: Placement_Inductor_Ferrite_Toroidal_Placed
+    3300108: Placement_Resistor_Big_Placed
+    3300110: Placement_Resistor_Medium_Placed
+    3300112: Placement_Resistor_Small_Placed
+    3300114: Placement_Transistor_TO126_Placed
+    3300116: Placement_Transistor_TO220_Placed
+    3300118: Placement_Transistor_TO92_Placed
+    3300120: Presentation_Capacitor_Ceramic_Blue
+    3300122: Presentation_Capacitor_Ceramic_Brown
+    3300124: Presentation_Capacitor_Electrolytic
+    3300126: Presentation_Capacitor_MemoryBackUp
+    3300128: Presentation_Capacitor_Polypropylene
+    3300130: Presentation_Capacitor_Supressor
+    3300132: Presentation_Diode_LightEmitting
+    3300134: Presentation_Diode_Schottky
+    3300136: Presentation_Diode_Zener
+    3300138: Presentation_Inductor_Air
+    3300140: Presentation_Inductor_Ferrite
+    3300142: Presentation_Inductor_Ferrite_Toroidal
+    3300144: Presentation_Resistor_Big
+    3300146: Presentation_Resistor_Medium
+    3300148: Presentation_Resistor_Small
+    3300150: Presentation_Transistor_TO126
+    3300152: Presentation_Transistor_TO220
+    3300154: Presentation_Transistor_TO92
+    3300156: Placement_Diode_LightEmitting_Glass_Placed
+    3300158: Placement_Diode_Zener_Glass_Placed
+    3300160: Presentation_Diode_LightEmitting_Glass
+    3300162: Presentation_Diode_Zener_Glass
+    4300000: EC_Box Cap
+    4300002: EC_Box Body
+    4300004: Presentation Capacitor_MemoryBackUp
+    4300006: Presentation Capacitor_Supressor
+    4300008: Presentation Capacitor_Electrolytic
+    4300010: Presentation Capacitor_Polypropylene
+    4300012: Presentation Capacitor_Ceramic_Blue
+    4300014: Presentation Capacitor_Ceramic_Brown
+    4300016: Placement Capacitor_MemoryBackUp_Placed
+    4300018: Placement Capacitor_Supressor_Placed
+    4300020: Placement Capacitor_Electrolytic_Placed
+    4300022: Placement Capacitor_Polypropylene_Placed
+    4300024: Placement Capacitor_Ceramic_Blue_Placed
+    4300026: Placement Capacitor_Ceramic_Brown_Placed
+    4300028: Presentation Diode_Schottky
+    4300030: Presentation Diode_Zener
+    4300032: Presentation Diode_LightEmitting
+    4300034: Placement Diode_Schottky_Placed
+    4300036: Placement Diode_Zener_Placed
+    4300038: Placement Diode_LightEmitting_Placed
+    4300040: Presentation Inductor_Ferrite
+    4300042: Presentation Inductor_Ferrite_Toroidal
+    4300044: Presentation Inductor_Air
+    4300046: Placement Inductor_Ferrite_Placed
+    4300048: Placement Inductor_Ferrite_Toroidal_Placed
+    4300050: Placement Inductor_Air_Placed
+    4300052: Presentation Resistor_Big
+    4300054: Presentation Resistor_Medium
+    4300056: Presentation Resistor_Small
+    4300058: Placement Resistor_Big_Placed
+    4300060: Placement Resistor_Medium_Placed
+    4300062: Placement Resistor_Small_Placed
+    4300064: Presentation Transistor_TO92
+    4300066: Presentation Transistor_TO220
+    4300068: Presentation Transistor_TO126
+    4300070: Placement Transistor_TO92_Placed
+    4300072: Placement Transistor_TO220_Placed
+    4300074: Placement Transistor_TO126_Placed
+    4300076: Wire
+    4300078: Wire_Placed
+    4300080: EC_Box_Cap
+    4300082: EC_Box_Body
+    4300084: Presentation_Capacitor_MemoryBackUp
+    4300086: Presentation_Capacitor_Supressor
+    4300088: Presentation_Capacitor_Electrolytic
+    4300090: Presentation_Capacitor_Polypropylene
+    4300092: Presentation_Capacitor_Ceramic_Blue
+    4300094: Presentation_Capacitor_Ceramic_Brown
+    4300096: Placement_Capacitor_MemoryBackUp_Placed
+    4300098: Placement_Capacitor_Supressor_Placed
+    4300100: Placement_Capacitor_Electrolytic_Placed
+    4300102: Placement_Capacitor_Polypropylene_Placed
+    4300104: Placement_Capacitor_Ceramic_Blue_Placed
+    4300106: Placement_Capacitor_Ceramic_Brown_Placed
+    4300108: Presentation_Diode_Schottky
+    4300110: Presentation_Diode_Zener
+    4300112: Presentation_Diode_LightEmitting
+    4300114: Placement_Diode_Schottky_Placed
+    4300116: Placement_Diode_Zener_Placed
+    4300118: Placement_Diode_LightEmitting_Placed
+    4300120: Presentation_Inductor_Ferrite
+    4300122: Presentation_Inductor_Ferrite_Toroidal
+    4300124: Presentation_Inductor_Air
+    4300126: Placement_Inductor_Ferrite_Placed
+    4300128: Placement_Inductor_Ferrite_Toroidal_Placed
+    4300130: Placement_Inductor_Air_Placed
+    4300132: Presentation_Resistor_Big
+    4300134: Presentation_Resistor_Medium
+    4300136: Presentation_Resistor_Small
+    4300138: Placement_Resistor_Big_Placed
+    4300140: Placement_Resistor_Medium_Placed
+    4300142: Placement_Resistor_Small_Placed
+    4300144: Presentation_Transistor_TO92
+    4300146: Presentation_Transistor_TO220
+    4300148: Presentation_Transistor_TO126
+    4300150: Placement_Transistor_TO92_Placed
+    4300152: Placement_Transistor_TO220_Placed
+    4300154: Placement_Transistor_TO126_Placed
+    4300156: Presentation_Diode_Zener_Glass
+    4300158: Presentation_Diode_LightEmitting_Glass
+    4300160: Placement_Diode_Zener_Glass_Placed
+    4300162: Placement_Diode_LightEmitting_Glass_Placed
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .000500000024
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
