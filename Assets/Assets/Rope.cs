@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rope : MonoBehaviour
 {
-    [SerializeField]
+    /*[SerializeField]
     GameObject partPrefab, parentObject;
 
     [SerializeField]
@@ -51,7 +51,7 @@ public class Rope : MonoBehaviour
         {
             GameObject tmp;
 
-            tmp = Instantiate(partPrefab, new Vector3(transform.position.x, transform.position.y + partDistance * (x + 1), transform.position.z), Quaternion.identity, parentObject.transform);
+            tmp = Instantiate(partPrefab, new Vector3(transform.position.x, transform.position.y + partDistance * (1), transform.position.z), Quaternion.identity, parentObject.transform);
             tmp.transform.eulerAngles = new Vector3(180, 0, 0);
             tmp.name = parentObject.transform.childCount.ToString();
 
@@ -74,5 +74,5 @@ public class Rope : MonoBehaviour
         {
             parentObject.transform.Find((parentObject.transform.childCount).ToString()).GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
         }
-    }
+    }*/
 }

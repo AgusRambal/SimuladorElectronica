@@ -16,6 +16,9 @@ public class CharacterControllerScript : MonoBehaviour
     [Header("References")]
     public Transform cameraHolder;
     public GameObject FadeIn;
+    public GameObject Resistencias;
+    public AudioSource hoja;
+    public AudioSource pasos;
 
     [Header("Settings")]
     public PlayerSettingsModel playerSettings;
@@ -26,6 +29,10 @@ public class CharacterControllerScript : MonoBehaviour
     public float gravityAmount;
     public float gravityMin;
     public float playerGravity;
+
+    private bool Hactivo;
+    private bool Vactivo;
+    public bool showResistencias = false;
 
     private void Awake() //VER BIEN QUE ES EULER Y QUATERNION
     {
@@ -53,6 +60,59 @@ public class CharacterControllerScript : MonoBehaviour
         if (Input.GetKeyDown("escape"))
         {
             Cursor.lockState = CursorLockMode.None;
+        }
+
+        if (Input.GetKeyDown("space"))
+        {
+            hoja.Play();
+            showResistencias = !showResistencias;
+        }
+
+        if (showResistencias == true)
+        {
+            Resistencias.GetComponent<Animator>().Play("PaperRedAnimation");
+        }
+        else 
+        {
+            Resistencias.GetComponent<Animator>().Play("PaerRedAnimationBack");
+        }
+
+        if (Input.GetButtonDown("Horizontal"))
+        {
+            if (Vactivo == false)
+            {
+                pasos.Play();
+                Hactivo = true;
+            }
+        }
+
+        if (Input.GetButtonDown("Vertical"))
+        {
+            if (Hactivo == false)
+            {
+                pasos.Play();
+                Vactivo = true;
+            }
+        }
+
+        if (Input.GetButtonUp("Horizontal"))
+        {
+            Hactivo = false;
+
+            if (Vactivo == false)
+            {
+                pasos.Stop();
+            }
+        }
+
+        if (Input.GetButtonUp("Vertical"))
+        {
+            Vactivo = false;
+
+            if (Hactivo == false)
+            {
+                pasos.Stop();
+            }
         }
 
         CalculateView();

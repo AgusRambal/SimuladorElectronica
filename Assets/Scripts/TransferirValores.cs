@@ -16,9 +16,10 @@ public class TransferirValores : MonoBehaviour
 
     [Header("Led Parpadeante")]
     public Light luz;
-    public float valorLuz; //ESTE ES EL PARAMETRO PARA EL LED, OSEA EL POTENCIOMETRO
+    public float valorLuz;
     public float timer = 10;
     public bool ganaste = false;
+    public bool perdiste = false;
 
     private void Update()
     {
@@ -30,25 +31,21 @@ public class TransferirValores : MonoBehaviour
         sonidoBoton.Play();
         valor = s;
 
-        if (valor == "1000")
+        if (valor == "0")
         {
-            valorLuz = 1.750f;
+            perdiste = true;
+            //ACA PERDES
+        }
+
+        valorLuz = 0.693f * (22000f + int.Parse(valor)) * 0.000047f;
+        Debug.Log(valorLuz);
+
+        if (1.3 <= valorLuz && valorLuz <= 1.4) 
+        {
             ganaste = true;
+            //ACA GANAS
         }
-
-        else if (valor == "10000")
-        {
-            valorLuz = 3f;
-            textoErroneo.SetActive(true);
-        }
-
-        else if (valor == "100000")
-        {
-            valorLuz = 5.5f;
-            textoErroneo.SetActive(true);
-        }
-
-        else if (valor != "1000" || valor != "10000" || valor != "100000")
+        else
         {
             textoErroneo.SetActive(true);
         }
@@ -75,7 +72,4 @@ public class TransferirValores : MonoBehaviour
             timer = valorLuz;
         }
     }
-
-    //// CUANDO EL OBJETIVO SE CUMPLA CAMBIAR DE NIVEL O ALGUNA OTRA COSA
-    //// SI EL VALOR ESTA ERRONEO, TIRAR ALGUN MENSAJE DE ESTA MAL
 }

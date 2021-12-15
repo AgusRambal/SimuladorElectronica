@@ -12,7 +12,7 @@ public class CambioDeObjetivo : MonoBehaviour
     {
         if (other.tag == "Player") 
         { 
-            texto.GetComponent<TextMeshProUGUI>().text = "La frecuencia de salida debe ser de 1Hz "; ;
+            texto.GetComponent<TextMeshProUGUI>().text = "El tiempo del 555 debe ser de 1.3 mS"; ;
             StartCoroutine(MostrarAyuda());
         }
     }
