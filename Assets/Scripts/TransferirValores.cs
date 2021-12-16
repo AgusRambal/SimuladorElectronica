@@ -13,6 +13,8 @@ public class TransferirValores : MonoBehaviour
     public GameObject boton;
     public GameObject textoErroneo;
     public AudioSource sonidoBoton;
+    public GameObject Resultado;
+    public GameObject textoGanaste;
 
     [Header("Led Parpadeante")]
     public Light luz;
@@ -38,16 +40,19 @@ public class TransferirValores : MonoBehaviour
         }
 
         valorLuz = 0.693f * (22000f + int.Parse(valor)) * 0.000047f;
-        Debug.Log(valorLuz);
+
+        Resultado.SetActive(true);
 
         if (1.3 <= valorLuz && valorLuz <= 1.4) 
         {
             ganaste = true;
-            //ACA GANAS
+            Resultado.GetComponent<TextMeshProUGUI>().text = "T = " + valorLuz + ", Muy bien! Ese el tiempo pedido";
+            textoGanaste.SetActive(true);
         }
         else
         {
             textoErroneo.SetActive(true);
+            Resultado.GetComponent<TextMeshProUGUI>().text = "El tiempo con dicha R es de: " + valorLuz + " mS";
         }
 
         StartCoroutine(LeErraste());
@@ -70,6 +75,12 @@ public class TransferirValores : MonoBehaviour
         {
             luz.enabled = !luz.enabled;
             timer = valorLuz;
+
+            if (valor=="0")
+            {
+                luz.enabled = false;
+                Resultado.GetComponent<TextMeshProUGUI>().text = "No se puede poner la R en 0!!";
+            }
         }
     }
 }
