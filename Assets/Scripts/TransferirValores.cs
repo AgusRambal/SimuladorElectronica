@@ -15,6 +15,7 @@ public class TransferirValores : MonoBehaviour
     public AudioSource sonidoBoton;
     public GameObject Resultado;
     public GameObject textoGanaste;
+    public GameObject textoPerdiste;
 
     [Header("Led Parpadeante")]
     public Light luz;
@@ -36,7 +37,7 @@ public class TransferirValores : MonoBehaviour
         if (valor == "0")
         {
             perdiste = true;
-            //ACA PERDES
+            textoPerdiste.SetActive(true);
         }
 
         valorLuz = 0.693f * (22000f + int.Parse(valor)) * 0.000047f;

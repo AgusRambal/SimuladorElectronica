@@ -16,6 +16,11 @@ public class CambioDeObjetivo : MonoBehaviour
         {
            texto.GetComponent<TextMeshProUGUI>().text = "Anda a la puerta para ir a clases";
         }
+
+        if (transferir.perdiste == true)
+        {
+            texto.GetComponent<TextMeshProUGUI>().text = "Anda a la puerta para ir a clases igual";
+        }
     }
 
     private void OnTriggerEnter(Collider other)
