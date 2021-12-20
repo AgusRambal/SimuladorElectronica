@@ -7,7 +7,7 @@ public static class Models
 {
     #region - Player
 
-    [Serializable] // VER QUE ES SERIALIZABLE
+    [Serializable] 
     public class PlayerSettingsModel
     {
         [Header("View Settings")]

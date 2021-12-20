@@ -34,7 +34,7 @@ public class CharacterControllerScript : MonoBehaviour
     private bool Vactivo;
     public bool showResistencias = false;
 
-    private void Awake() //VER BIEN QUE ES EULER Y QUATERNION
+    private void Awake() 
     {
         defaultInput = new DefaultInput();
 
